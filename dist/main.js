@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hoai\", function() { return hoai; });\nconst hoai = (x) => {\n    return `${x}, ahihi`;\n}\n\n\n\n//# sourceURL=webpack:///./src/hoai.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"hoai\", function() { return hoai; });\nconst hoai = x => {\n  return `${x}, ahihi`;\n};\n\n\n\n//# sourceURL=webpack:///./src/hoai.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hoai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hoai */ \"./src/hoai.js\");\n\n\nconsole.log(Object(_hoai__WEBPACK_IMPORTED_MODULE_0__[\"hoai\"])('lam thanh hoai'))\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hoai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hoai */ \"./src/hoai.js\");\n\nconsole.log(Object(_hoai__WEBPACK_IMPORTED_MODULE_0__[\"hoai\"])('lam thanh hoai'));\nconst numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconst odd = numbers.filter(n => n % 2 == 1);\nconsole.log(odd);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
