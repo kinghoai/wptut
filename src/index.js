@@ -1,4 +1,5 @@
 import { hoai } from './hoai'
+import "./styles/main.css";
 
 console.log(hoai('lam thanh hoai'))
 

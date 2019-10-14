@@ -106,7 +106,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hoai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hoai */ \"./src/hoai.js\");\n\nconsole.log(Object(_hoai__WEBPACK_IMPORTED_MODULE_0__[\"hoai\"])('lam thanh hoai'));\nconst numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconst odd = numbers.filter(n => n % 2 == 1);\nconsole.log(odd);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hoai__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hoai */ \"./src/hoai.js\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ \"./src/styles/main.css\");\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconsole.log(Object(_hoai__WEBPACK_IMPORTED_MODULE_0__[\"hoai\"])('lam thanh hoai'));\nconst numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\nconst odd = numbers.filter(n => n % 2 == 1);\nconsole.log(odd);\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/styles/main.css":
+/*!*****************************!*\
+  !*** ./src/styles/main.css ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/main.css?");
 
 /***/ })
 
